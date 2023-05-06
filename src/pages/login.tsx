@@ -10,9 +10,11 @@ export const Login = () => {
         navigate('/');
     };
   return (
-    <div>
-      <p>Sign in with google to continue</p>
-      <button  onClick={signwithgoogle}>sign in with google</button>
+    <div className="loginPage">
+      <p>Sign In With Google to Continue</p>
+      <button className="login-with-google-btn" onClick={signwithgoogle}>
+        Sign in with Google
+      </button>
     </div>
   );
 };
